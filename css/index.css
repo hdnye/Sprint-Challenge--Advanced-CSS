@@ -1,3 +1,7 @@
+.button:active {
+  box-shadow: 0 5px #333333;
+  transform: translateY(4px);
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -237,11 +241,25 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-img {
+.home .walk .walk-text .btn {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  padding: 2%;
+  width: 100px;
+  text-align: center;
+}
+.home .walk .walk-text .btn:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+.home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .walk .walk-text .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
