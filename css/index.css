@@ -160,6 +160,31 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.main-title,
+.top-img,
+nav {
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(202, 198, 198, 0.2);
+}
+h1 {
+  padding: 1% 0;
+  font-size: 3.2rem;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2% 20%;
+}
+a {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  color: #5E6164;
+}
+a:hover {
+  color: none;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
